@@ -1,0 +1,41 @@
+table {
+    width: 100%;
+  }
+
+  :host ::ng-deep th.mat-header-cell {
+    background: #2f18ed;
+    color: white;
+    text-align: left;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.confirmar{
+    margin-top: 1%;
+    display: inline-block;
+    font-size: 10px;
+    color: white !important;
+    padding: 2px 19px;
+    border-radius: 15px;
+    background: #2a5082;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+}
+
+.agregar {
+    margin-top: 5%;
+    padding: 2px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    width: 27px;
+    height: 27px;
+    color: blue;
+  }
+
+  .fechahora{
+    text-align: end;
+    margin-top: 2%;
+  }
