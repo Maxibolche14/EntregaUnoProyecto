@@ -1,0 +1,20 @@
+
+<div class="Formulario">
+    <div>
+        <button type="submit" class="btn btn-primary"  (click)="loadUsers()">Lista de Usuarios</button>
+    </div>
+
+    <div *ngIf="(users$ | async) as users">
+        <ul>
+            <li *ngFor="let user of users">{{ user.name }}</li>
+        </ul>
+    </div>
+
+    <input type="text" [formControl]="searchText" placeholder="Buscar por nombre">
+
+    <div *ngIf="(filteredUsers$ | async) as filteredUsers">
+    <ul>
+        <li *ngFor="let user of filteredUsers">{{ user.name }}</li>
+    </ul>
+    </div>
+</div>

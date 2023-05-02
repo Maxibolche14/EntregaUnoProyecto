@@ -1,0 +1,9 @@
+.Formulario{
+    margin-top: 2%;
+    height: 65%;
+    width: 27%;
+    padding: 4%;
+    border: 2px solid rgb(18, 21, 182);
+    align-items: center;
+    color: black;
+}
