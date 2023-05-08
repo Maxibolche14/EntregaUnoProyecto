@@ -18,6 +18,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatTableModule } from '@angular/material/table';
 import { FormularioComponent } from './components/formulario/formulario.component';
 import { UserListComponent } from './components/user-list/user-list.component';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { UserListComponent } from './components/user-list/user-list.component';
     AlumnosComponent,
     FormularioComponent,
     UserListComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
