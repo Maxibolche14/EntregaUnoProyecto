@@ -1,0 +1,31 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Maxi",
+      "apellido": "Piñero",
+      "email": "mpinero@gmail.com",
+      "password": "mpinero",
+      "token": "klsjfaklghajshfjhjfsahfsj",
+      "role": "admin"
+    },
+    {
+      "id": 3,
+      "nombre": "Maria Paz",
+      "apellido": "Piñero",
+      "email": "mppiñero@gmail.com",
+      "password": "mppiñero",
+      "token": "klsjfaklllljshfjhjfsahfsj",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "nombre": "Vanessa",
+      "apellido": "Tavolara",
+      "email": "vtacolara@gmail.com",
+      "password": "vtacolara",
+      "token": "klsjfaklllljshfjhjfsahfsj",
+      "role": "admin"
+    }
+  ]
+}

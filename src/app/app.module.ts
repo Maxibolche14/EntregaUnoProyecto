@@ -4,7 +4,7 @@ import { AppComponent } from './app.component';
 import { ComponentsComponent } from './components/components.component';
 import { ProductosComponent } from './components/productos/productos.component';
 import { NabvarComponent } from './components/nabvar/nabvar.component';
-import { ToolbarComponent } from './components/toolbar/toolbar.component';
+//import { ToolbarComponent } from './components/toolbar/toolbar.component';
 import { AlumnosComponent } from './components/alumnos/alumnos.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
@@ -17,7 +17,9 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { MatTableModule } from '@angular/material/table';
 import { FormularioComponent } from './components/formulario/formulario.component';
-import { UserListComponent } from './components/user-list/user-list.component';
+//import { UserListComponent } from './components/user-list/user-list.component';
+
+import { HttpClientModule } from '@angular/common/http';
 import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
@@ -26,10 +28,8 @@ import { LoginComponent } from './components/login/login.component';
     ComponentsComponent,
     ProductosComponent,
     NabvarComponent,
-    ToolbarComponent,
     AlumnosComponent,
     FormularioComponent,
-    UserListComponent,
     LoginComponent,
   ],
   imports: [
@@ -43,7 +43,7 @@ import { LoginComponent } from './components/login/login.component';
     MatIconModule,
     MatDialogModule,
     MaterialModule,
-   
+   HttpClientModule,
 
   ],
   providers: [],

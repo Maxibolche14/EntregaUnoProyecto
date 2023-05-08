@@ -1,21 +1,21 @@
-import { Injectable } from '@angular/core';
+/*import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
-import { User } from '../models/User';
+import { Usuario } from '../models/Usuario';
 
 
 @Injectable({
   providedIn: 'root'
 })
 export class UserService {
-  getUsers(): Observable<User[]> {
+  getUsers(): Observable<Usuario[]> {
     // Aquí simulamos la obtención de la lista de usuarios desde algún servicio o API
-    const users: User[] = [
-      { id: 1, name: 'Vanessa' },
+    const users: Usuario[] = [
+      { id: 1, nombre: 'Vanessa' },
       { id: 2, name: 'Maria Paz' },
       { id: 3, name: 'Maxi' },
       { id: 4, name: 'Miriam' }
     ];
 
-    return of(users);
+    return of(Usuario);
   }
-}
+}*/
